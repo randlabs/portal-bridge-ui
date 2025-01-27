@@ -72,9 +72,10 @@ interface InfoStatWindowProps {
   value?: string;
   unit?: string;
   infoElement?: JSX.Element;
+  subtext?: string;
 }
 export const InfoStatWindow = (props: InfoStatWindowProps) => {
-  const { unit, value, header, infoElement } = props;
+  const { unit, value, header, infoElement, subtext } = props;
   return (
     <div
       className={`
@@ -91,11 +92,12 @@ export const InfoStatWindow = (props: InfoStatWindowProps) => {
         className="flex flex-col pr-8 w-full
         "
       >
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-start items-center">
           <h4 className="text-white text-start whitespace-pre text-sm">
             {header}
           </h4>
         </div>
+
         <div className="flex flex-row items-end">
           {value ? (
             <div className="text-white whitespace-pre text-start font-bold text-2xl">
@@ -119,6 +121,15 @@ export const InfoStatWindow = (props: InfoStatWindowProps) => {
             ""
           )}
         </div>
+        <p
+          className={`${
+            subtext === undefined
+              ? "hidden"
+              : "text-xs text-start text-white text-opacity-50"
+          } `}
+        >
+          {subtext}
+        </p>
       </div>
       <InfoHover>
         <div className="prose text-[10px] text-white">

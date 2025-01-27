@@ -224,6 +224,7 @@ const ConnectedDashboard = () => {
                   value={formatInteger(accruedRewards, 6)}
                   unit="USDS"
                   infoElement={<Trans>Accrued Rewards Tooltip</Trans>}
+                  subtext={t`Rewards will be distributed directly to your wallet on a weekly basis.`}
                 />
               </div>
             </div>

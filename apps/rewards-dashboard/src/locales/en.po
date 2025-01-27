@@ -19,7 +19,7 @@ msgstr ""
 
 #: src/layouts/DashboardLayout.tsx:223
 msgid "Accrued Rewards Header"
-msgstr "Accruing USDS Rewards"
+msgstr "Weekly Accruing Rewards"
 
 #: src/layouts/DashboardLayout.tsx:226
 msgid "Accrued Rewards Tooltip"
