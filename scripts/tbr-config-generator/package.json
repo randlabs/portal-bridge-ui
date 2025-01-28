@@ -1,0 +1,24 @@
+{
+  "name": "tbr-config-generator",
+  "packageManager": "npm@9.8.1",
+  "type": "module",
+  "bin": {
+    "tbr-configs": "./bin/index.ts"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.8.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "@duneanalytics/client-sdk": "^0.2.4",
+    "@wormhole-foundation/sdk": "^0.14.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4"
+  },
+  "engines": {
+    "node": ">=18.18.2"
+  }
+}
