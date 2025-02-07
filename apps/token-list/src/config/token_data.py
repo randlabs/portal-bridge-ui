@@ -2301,6 +2301,24 @@ TOKENS = {
       },
       "sourceDecimals": 18
     },
+    "XYO": {
+      "symbol": "XYO",
+      "name": "XY Oracle",
+      "sourceAddress": "0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "coingeckoId": "xyo-network",
+      "logo": "https://assets.coingecko.com/coins/images/4519/standard/XYO_Network-logo.png?1696505103",
+      "markets": {
+        "eth": ["uniswap"],
+        "sol": ["raydium"]
+      },
+      "destinations": {
+        "sol": {
+          "address": "FCZKwHd9Qn1EQj8fFuNLB8dupAWCoJJNePbMqyHhS77b",
+          "decimals": 8
+        }
+      },
+      "sourceDecimals": 18
+    }
   },
   #####################
   # 3. Terra native

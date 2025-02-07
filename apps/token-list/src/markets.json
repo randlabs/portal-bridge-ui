@@ -342,6 +342,11 @@
             "curve"
           ]
         },
+        "FCZKwHd9Qn1EQj8fFuNLB8dupAWCoJJNePbMqyHhS77b": {
+          "markets": [
+            "uniswap"
+          ]
+        },
         "FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp": {
           "markets": [
             "curve"
@@ -1240,6 +1245,11 @@
         "0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3": {
           "markets": [
             "orca",
+            "raydium"
+          ]
+        },
+        "0x55296f69f40ea6d20e478533c15a6b08b654e758": {
+          "markets": [
             "raydium"
           ]
         },
@@ -3859,6 +3869,10 @@
         "logo": "https://raw.githubusercontent.com/xlabs/portal-bridge-ui/main/apps/token-list/assets/LUNA_wh.png",
         "symbol": "LUNA"
       },
+      "FCZKwHd9Qn1EQj8fFuNLB8dupAWCoJJNePbMqyHhS77b": {
+        "logo": "https://assets.coingecko.com/coins/images/4519/standard/XYO_Network-logo.png?1696505103",
+        "symbol": "XYO"
+      },
       "FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA": {
         "logo": "https://raw.githubusercontent.com/xlabs/portal-bridge-ui/main/apps/token-list/assets/USDCbs_wh.png",
         "symbol": "USDCbs"
@@ -4312,6 +4326,10 @@
       "0x514910771af9ca656af840dff83e8264ecf986ca": {
         "logo": "https://raw.githubusercontent.com/xlabs/portal-bridge-ui/main/apps/token-list/assets/LINK_wh.png",
         "symbol": "LINK"
+      },
+      "0x55296f69f40ea6d20e478533c15a6b08b654e758": {
+        "logo": "https://assets.coingecko.com/coins/images/4519/standard/XYO_Network-logo.png?1696505103",
+        "symbol": "XYO"
       },
       "0x566957eF80F9fd5526CD2BEF8BE67035C0b81130": {
         "logo": "https://raw.githubusercontent.com/xlabs/portal-bridge-ui/main/apps/token-list/assets/USDCpo_wh.png",
